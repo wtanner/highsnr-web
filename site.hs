@@ -49,7 +49,7 @@ main = hakyll $ do
                 >>= relativizeUrls
 
 
-    match "wes.asc" $ do
+    match "wes.asc.txt" $ do
     	route idRoute
 	compile copyFileCompiler
 
